@@ -1,10 +1,172 @@
-<html>
+<!DOCTYPE html>
+<html lang="ar">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Home_style.css" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="IMJ/R.png">
+ 
+      <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
+
+
+<!-- Custom styles for this template -->
+<link href="navbar-top-fixed.css" rel="stylesheet">
 </head>
-<body>
 
-<p>test to website   </p>
+<body >
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <!--start navbar-->
+        <div class="container">
+             <form action="" class="navbar-form navbar navbar-left"> 
+                <div class="search-box">
+                    <input class="search-txt " type="text" placeholder="ابحث هنا" class="form-control">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+             </form>
+        
+                <div class="row align-self-start">
+     
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                    
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="#" class="nav-link"> الصفحة الرئيسية</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"> الاقسام</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">صفحة التدريسيين</a></li>
+                        </ul>
+                        
+                    </div>
+                  
+                 </div>
+                           <!--website icon-->
+                 <div class="row align-self-start">
+                    <div class="col order-last">
+                      <a class="navbar-brand" href="#"><img src="IMJ/photo_2021-12-04_17-32-13.jpg"
+                         alt="there is erorr" width="250" height="50"> </a>
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                    </div>
+               </div>
+        </div>
+                  
+         
+             <!--End navbar-->
+    </nav>
 
+
+    
+
+
+    <!--    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-right cstm-nav-right">
+        
+      <a class="navbar-brand" href="#"><img src="IMJ/photo_2021-12-04_17-32-13.jpg" alt="Flowers in Chania" width="460" height="75"> </a>
+      <div class="head"><h3 class="">المكتبة الالكترونية </h3></div>
+      </button>
+       <div class="collapes navbar-collapes" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                
+            </li>
+           </ul>
+           
+       <form class="form-inline">
+           <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search">
+           <button class="btn btn-light my-sm-0" type="submit">search</button>
+       </form>
+       </div>
+</nav> -->
+
+<div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+  <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+    <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+    <span class="fs-5 fw-semibold">Collapsible</span>
+  </a>
+  <ul class="list-unstyled ps-0">
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+        Home
+      </button>
+      <div class="collapse show" id="home-collapse" style="">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">Overview</a></li>
+          <li><a href="#" class="link-dark rounded">Updates</a></li>
+          <li><a href="#" class="link-dark rounded">Reports</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+        Dashboard
+      </button>
+      <div class="collapse" id="dashboard-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">Overview</a></li>
+          <li><a href="#" class="link-dark rounded">Weekly</a></li>
+          <li><a href="#" class="link-dark rounded">Monthly</a></li>
+          <li><a href="#" class="link-dark rounded">Annually</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+        Orders
+      </button>
+      <div class="collapse" id="orders-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">New</a></li>
+          <li><a href="#" class="link-dark rounded">Processed</a></li>
+          <li><a href="#" class="link-dark rounded">Shipped</a></li>
+          <li><a href="#" class="link-dark rounded">Returned</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="border-top my-3"></li>
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+        Account
+      </button>
+      <div class="collapse" id="account-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">New...</a></li>
+          <li><a href="#" class="link-dark rounded">Profile</a></li>
+          <li><a href="#" class="link-dark rounded">Settings</a></li>
+          <li><a href="#" class="link-dark rounded">Sign out</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="sidebars.js"></script>
 </body>
 </html>
