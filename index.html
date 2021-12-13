@@ -39,8 +39,8 @@
 </head>
 
 <body >
+   <!--start navbar-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <!--start navbar-->
         <div class="container">
              <form action="" class="navbar-form navbar navbar-left"> 
                 <div class="search-box">
@@ -77,50 +77,86 @@
         </div>
                   
          
-             <!--End navbar-->
-    </nav>
+      </nav> <!--End navbar-->
 
-
-    
-
-
-    <!--    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-right cstm-nav-right">
-        
-      <a class="navbar-brand" href="#"><img src="IMJ/photo_2021-12-04_17-32-13.jpg" alt="Flowers in Chania" width="460" height="75"> </a>
-      <div class="head"><h3 class="">المكتبة الالكترونية </h3></div>
-      </button>
-       <div class="collapes navbar-collapes" id="navbarSupportedContent">
-           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                
-            </li>
-           </ul>
-           
-       <form class="form-inline">
-           <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search">
-           <button class="btn btn-light my-sm-0" type="submit">search</button>
-       </form>
-       </div>
-</nav> -->
-
+<!--start sidebar-->
 <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
   <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
     <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-    <span class="fs-5 fw-semibold">Collapsible</span>
+    <span class="fs-5 fw-semibold">IS/CS</span>
   </a>
+  
   <ul class="list-unstyled ps-0">
-    <li class="mb-1">
-      <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-        Home
+    <li class="mb-1"> <!--بداية كلاس الدراسات وتفرعاته-->
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+       data-bs-target="#home-collapse" aria-expanded="true">
+        الدراسات
       </button>
-      <div class="collapse show" id="home-collapse" style="">
+      
+      <div class="collapse " id="home-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="#" class="link-dark rounded">Overview</a></li>
-          <li><a href="#" class="link-dark rounded">Updates</a></li>
-          <li><a href="#" class="link-dark rounded">Reports</a></li>
+          <li   class="mb-1"><!--بداية كلاس الدراسات الاولية-->
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dep1-collapse" aria-expanded="true">
+              الدراسات الاولية
+             </button>
+             <div class="collapse " id="dep1-collapse"> <!--بداية كلاس قسم النظم-->
+              <ul class="list-unstyled ps-0">
+                <li  class="mb-1">
+                 <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                 data-bs-target="#isdep-collapse" aria-expanded="true">
+                  قسم نظم المعلومات
+                </button>
+                <div class="collapse" id="isdep-collapse">
+                 <ul class="list-unstyled ps-1">
+                   <li><a href="#" class="link-dark rounded">المرحلة الاولى</a></li>
+                   <li><a href="#" class="link-dark rounded">المرحلة الثانية</a></li>
+                   <li><a href="#" class="link-dark rounded">المرحلة الثالثة</a></li>
+                   <li><a href="#" class="link-dark rounded">المرحلة الرابعة</a></li> 
+                  </ul>
+                </div>
+                </li>
+              </ul>
+
+             </div><!--نهاية كلاس قسم النظم-->
+             
+             <div class="collapse" id="dep1-collapse"> <!--بداية كلاس قسم العلوم-->
+              <ul class="list-unstyled ps-0">
+                <li  class="mb-1">
+                 <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                 data-bs-target="#csdep-collapse" aria-expanded="true">
+                  قسم علوم الحاسوب
+                </button>
+                <div class="collapse" id="csdep-collapse">
+                 <ul class="list-unstyled ps-1">
+                   <li><a href="#" class="link-dark rounded">المرحلة الاولى</a></li>
+                   <li><a href="#" class="link-dark rounded">المرحلة الثانية</a></li>
+                   <li><a href="#" class="link-dark rounded">المرحلة الثالثة</a></li>
+                   <li><a href="#" class="link-dark rounded">المرحلة الرابعة</a></li> 
+                  </ul>
+                </div>
+                </li>
+              </ul>
+
+             </div><!--نهاية كلاس قسم النظم-->
+           </li><!--نهاية كلاس الدراسات الاولية-->
+                 <ul class="list-unstyled ps-0">
+                   <li  class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#hight-stu-collapse" aria-expanded="true">
+                     الدراسات العليا
+                   </button>
+                   <div class="collapse" id="hight-stu-collapse">
+                    <ul class="list-unstyled ps-1">
+                      <li><a href="#" class="link-dark rounded">المرحلة الاولى</a></li>
+                      <li><a href="#" class="link-dark rounded">المرحلة الثانية</a></li>
+                     </ul>
+                   </div>
+                   </li>
+                 </ul>
         </ul>
       </div>
-    </li>
+    </li><!--نهاية كلاس الدراسات وتفرعاته-->
     <li class="mb-1">
       <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
         Dashboard
@@ -150,20 +186,20 @@
     <li class="border-top my-3"></li>
     <li class="mb-1">
       <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-        Account
+        الحساب
       </button>
       <div class="collapse" id="account-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="#" class="link-dark rounded">New...</a></li>
-          <li><a href="#" class="link-dark rounded">Profile</a></li>
-          <li><a href="#" class="link-dark rounded">Settings</a></li>
-          <li><a href="#" class="link-dark rounded">Sign out</a></li>
+          <li><a  href="sign-in.html" class="link-dark rounded" target="_self">تسجيل الدخول</a></li>
+          <li><a href="#" class="link-dark rounded">الملف الشخصي</a></li>
+          <li><a href="#" class="link-dark rounded">الاعدادات</a></li>
+          <li><a href="#" class="link-dark rounded">تسجيل الخروج</a></li>
         </ul>
       </div>
     </li>
   </ul>
 </div>
-
+<!--end sidebar-->
 
 
 <script src="js/bootstrap.bundle.min.js"></script>

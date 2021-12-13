@@ -129,3 +129,11 @@ html {
   .fw-semibold { font-weight: 600; }
   .lh-tight { line-height: 1.25; }
   
+  .flex-shrink-0{
+    position: absolute;
+    left: 1350px;
+  }
+  
+.body{
+  background-color: #eee;
+}
