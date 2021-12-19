@@ -136,4 +136,39 @@ html {
   
 .body{
   background-color: #eee;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
+
+#navbarCollapse #course{
+ transition: all 40s ease-in-out;
+} 
+
+ .dropdown-menu{
+   display: none;
+   position: absolute;
+   background-color: rgb(51, 70, 68);
+   box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+ }
+ .dropdown:hover .dropdown-menu{
+   display: block;  transition: all 10s ease-in-out; background-size: cover;
+   margin-right: 10px;  
+}
+ .dropdown .dropdown-menu a:hover{background-color:#2d495c ;}
+ 
+ .b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.container{ position: sticky;
+top: 100000px;}
